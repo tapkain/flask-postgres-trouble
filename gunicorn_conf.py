@@ -47,7 +47,7 @@ threads = 1
 
 # worker_connections - The maximum number of simultaneous clients
 # This setting only affects the Eventlet and Gevent worker types.
-worker_connections = 1000
+worker_connections = 10
 
 # max_requests - The maximum number of requests a worker will process
 # before restarting
